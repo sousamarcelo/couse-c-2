@@ -10,6 +10,8 @@ int main() {
 	std::cout << "************ INICIO DO JOGO ******************" << std::endl;
 	std::cout << "Vidas jogador: " << numVidas << std::endl;
 	std::cout << "Pontuação: " << pontuacao << std::endl;	
+	std::cout << "Tamanho da variavel numVidas: " << sizeof(numVidas) << "\n";
+	std::cout << "Tamanho da variavel pontuacao: " << sizeof(pontuacao) << "\n";
 	std::cout << "Endereço de memoria ram de numVidas: " << &numVidas << "\n";
 	std::cout << "Endereço de memoria ram de pontuacao: " << &pontuacao << "\n";
 	std::cout << "******************************" << std::endl;
